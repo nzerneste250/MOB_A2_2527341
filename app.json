@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "NEPortfolio",
+    "slug": "neportfolio",
+    "version": "1.0.0",
+    "orientation": "default",
+    "userInterfaceStyle": "automatic",
+    "android": {
+      "package": "rw.ac.ines.reg2527341.neportfolio",
+      "versionCode": 1,
+      "permissions": [
+        "CAMERA"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/app-icon.png",
+        "backgroundColor": "#101D35"
+      }
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#101D35",
+          "image": "./assets/images/splash-avatar.png",
+          "imageWidth": 250,
+          "resizeMode": "contain"
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow NEPortfolio to select a profile picture.",
+          "cameraPermission": "Allow NEPortfolio to take a profile picture."
+        }
+      ]
+    ],
+    "androidStatusBar": {
+      "backgroundColor": "#101D35",
+      "barStyle": "light-content"
+    },
+    "icon": "./assets/images/app-icon.png",
+    "extra": {
+      "eas": {
+        "projectId": "bb99a2fb-8c39-4713-a452-697cdfa9bac6"
+      }
+    }
+  }
+}
